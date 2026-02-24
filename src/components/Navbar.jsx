@@ -16,6 +16,13 @@ export default function Navbar() {
     };
   }, []);
 
+  const closeMenu = () =>{
+    const menu = document.getElementById("menu");
+    if(menu.classList.contains("show")){
+      menu.classList.remove("show");
+    }
+  }
+
   return (
     <div>
       <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'scrolled' : ''}`}>
@@ -29,10 +36,10 @@ export default function Navbar() {
 
         <div className="collapse navbar-collapse" id="menu">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link" href="#hero">Home</a></li>
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#services">Skills</a></li>
-            <li className="nav-item"><a className="nav-link" href="#portfolio">Projects</a></li>
+            <li className="nav-item"><a className="nav-link" href="#hero" onClick={closeMenu}>Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="#about"  onClick={closeMenu}>About</a></li>
+            <li className="nav-item"><a className="nav-link" href="#services" onClick={closeMenu}>Skills</a></li>
+            <li className="nav-item"><a className="nav-link" href="#portfolio" onClick={closeMenu}>Projects</a></li>
           </ul>
         </div>
       </div>
