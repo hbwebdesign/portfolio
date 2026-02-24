@@ -31,9 +31,11 @@
  .navbar .navbar-brand {
    padding: 0;
  }
- .navbar-brand:focus, .navbar-brand:hover {
-    color: transparent;
-}
+
+ .navbar-brand:focus,
+ .navbar-brand:hover {
+   color: transparent;
+ }
 
 
  nav {
@@ -436,5 +438,9 @@
    section {
      padding-left: 1rem;
      padding-right: 1rem;
+   }
+
+   .profile-img {
+     height: 400px;
    }
  }
