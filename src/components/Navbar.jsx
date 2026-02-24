@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import logo from "../images/hb-logo.png"
 
 export default function Navbar() {
 
@@ -19,7 +20,8 @@ export default function Navbar() {
     <div>
       <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <a className="navbar-brand" href="/">HB Portfolio</a>
+        <a className="navbar-brand" href="https://hemantbram.netlify.app/"><img src={logo} alt="hb-logo"  /></a>
+        {/* <a className="navbar-brand" href="https://hemantbram.netlify.app/">HB Por</a> */}
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
           {/* <span className="navbar-toggler-icon"></span> */}
           <i class="fa-solid fa-bars"></i>
