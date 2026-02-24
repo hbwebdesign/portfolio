@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div>
-      <section id="contact" className="bg-dark text-white py-3 footer">
+      <section id="contact" className="bg-dark text-white  footer">
         <div className="container text-center">
           <h6>Social Media Links</h6>
           <div className="f_s_menu">
@@ -13,7 +13,7 @@ export default function Contact() {
             <a href="https://www.instagram.com/hemant12344985?utm_source=qr&igsh=MW94a3YzNXI0eWQwOQ==" target='_blank' rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
 
           </div>
-          <p className='m-0 opacity-50'>Copy Right 2026 © By Hemant All Rights Reserved</p>
+          <p className='m-0 opacity-50 copyright'>Copy Right 2026 © By Hemant All Rights Reserved</p>
 
         </div>
       </section>
