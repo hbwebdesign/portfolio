@@ -238,6 +238,19 @@
    color: rgb(7, 108, 202);
  }
 
+ .f_s_menu {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-bottom: 10px;
+ }
+
+ .f_s_menu a {
+   font-size: 30px;
+   color: #fff;
+
+ }
+
  .bg-image::after {
    content: "";
    position: absolute;
