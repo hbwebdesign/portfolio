@@ -256,17 +256,19 @@
    align-items: center;
    justify-content: center;
    transition: all 0.3s ease-in;
-   
+   text-decoration: none;
+
 
  }
 
-  .f_s_menu a:hover{
-    color: #373737;
-    background-color: #fff;
-   }
-   .f_s_menu .copyright{
-    font-size: 10px;
-   }
+ .f_s_menu a:hover {
+   color: #373737;
+   background-color: #fff;
+ }
+
+ .f_s_menu .copyright {
+   font-size: 10px;
+ }
 
  .bg-image::after {
    content: "";
@@ -337,7 +339,7 @@
    font-weight: 200;
    padding: 15px 15px 5px;
  }
- 
+
 
  /* projects */
 
