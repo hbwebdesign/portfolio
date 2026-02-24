@@ -266,9 +266,7 @@
    background-color: #fff;
  }
 
- .f_s_menu .copyright {
-   font-size: 10px;
- }
+
 
  .bg-image::after {
    content: "";
@@ -470,6 +468,9 @@
      padding-left: 1rem;
      padding-right: 1rem;
    }
+   .copyright {
+   font-size: 10px;
+ }
 
 
  }
