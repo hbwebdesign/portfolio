@@ -23,7 +23,7 @@ export default function About() {
                             </div>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/hemant-bramhe-b06427222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><i className="fab fa-linkedin"></i></a>
-                                <a href="https://github.com/hbwebdesign/hemant" target='_blank'><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/hbwebdesign/hemant" target='_blank' rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                         <div className="col-md-4">
