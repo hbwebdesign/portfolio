@@ -20,7 +20,7 @@ export default function Navbar() {
     <div>
       <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <a className="navbar-brand" href="https://hemantbram.netlify.app/"><img src={logo} alt="hb-logo"  /></a>
+        <a className="navbar-brand" href="https://hemantbram.netlify.app/"><img src={logo} alt="hb-logo" className='img-fluid'  /></a>
         {/* <a className="navbar-brand" href="https://hemantbram.netlify.app/">HB Por</a> */}
         <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
           {/* <span className="navbar-toggler-icon"></span> */}
